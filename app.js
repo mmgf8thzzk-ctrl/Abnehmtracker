@@ -1,6 +1,12 @@
 const gewicht = document.getElementById("gewicht");
 const ziel = document.getElementById("ziel");
 
+const ziel2=document.getElementById("ziel2");
+
+const percent=document.getElementById("percent");
+
+const datum=document.getElementById("datum");
+
 const checkboxes = document.querySelectorAll("input[type=checkbox]");
 
 const button = document.querySelector(".button");
