@@ -37,6 +37,17 @@ rest=0;
 
 ziel.innerHTML=rest.toFixed(1)+" kg";
 
+  ziel2.innerHTML=rest.toFixed(1);
+
+let fortschritt=((95-(gewicht.value||95))/13)*100;
+
+fortschritt=Math.max(0,Math.min(100,fortschritt));
+
+percent.innerHTML=Math.round(fortschritt)+"%";
+
+document.querySelector(".circle").style.background =
+`conic-gradient(#22C55E ${fortschritt*3.6}deg,#334155 0deg)`;
+
   const prozent=((95-(gewicht.value||95))/13)*100;
 
 document.getElementById("bar").style.width=Math.max(0,Math.min(100,prozent))+"%";
@@ -120,3 +131,15 @@ alert("Gespeichert 👍");
 laden();
 
 update();
+
+const heute=new Date();
+
+datum.innerHTML=heute.toLocaleDateString("de-DE",{
+
+weekday:"long",
+
+day:"numeric",
+
+month:"long"
+
+});
