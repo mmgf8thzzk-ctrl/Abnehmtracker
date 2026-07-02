@@ -1,1 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+
+    background:#0F172A;
+    color:white;
+    font-family:-apple-system,BlinkMacSystemFont,sans-serif;
+
+}
+
+.container{
+
+    max-width:500px;
+    margin:auto;
+    padding:20px;
+
+}
+
+.title{
+
+    text-align:center;
+    margin:30px 0;
+    font-size:34px;
+    font-weight:700;
+
+}
+
+.card{
+
+    background:#1E293B;
+
+    padding:20px;
+
+    border-radius:20px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 12px 25px rgba(0,0,0,.35);
+
+}
+
+.card h2{
+
+    margin-bottom:15px;
+
+}
+
+.weight{
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    border-radius:15px;
+
+    background:#334155;
+
+    color:white;
+
+    font-size:26px;
+
+}
+
+.goal{
+
+    margin-top:20px;
+
+    text-align:center;
+
+}
+
+.goal span{
+
+    font-size:38px;
+
+    font-weight:bold;
+
+    color:#22C55E;
+
+}
+
+.check{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px 0;
+
+    border-bottom:1px solid #334155;
+
+}
+
+.check:last-child{
+
+    border:none;
+
+}
+
+.check input{
+
+    width:28px;
+
+    height:28px;
+
+}
+
+.button{
+
+    width:100%;
+
+    background:#22C55E;
+
+    border:none;
+
+    color:white;
+
+    padding:18px;
+
+    border-radius:18px;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    margin-top:15px;
+
+}
