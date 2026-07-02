@@ -1,11 +1,117 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Abnehmtracker</title>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Abnehmtracker</title>
+
+<link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-  <h1>🎉 Es funktioniert!</h1>
-  <p>Meine Abnehmtracker-App ist online.</p>
+
+<div class="container">
+
+<h1 class="title">🎯 Abnehmtracker</h1>
+
+<div class="card">
+
+<h2>Gewicht heute</h2>
+
+<input
+id="gewicht"
+class="weight"
+type="number"
+step="0.1"
+placeholder="95,0">
+
+<div class="goal">
+
+<p>Noch bis Ziel</p>
+
+<span id="ziel">13,0 kg</span>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Heute</h2>
+
+<div class="check">
+
+1600 kcal
+
+<input type="checkbox">
+
+</div>
+
+<div class="check">
+
+170g Protein
+
+<input type="checkbox">
+
+</div>
+
+<div class="check">
+
+12000 Schritte
+
+<input type="checkbox">
+
+</div>
+
+<div class="check">
+
+Training
+
+<input type="checkbox">
+
+</div>
+
+<div class="check">
+
+2,5L Wasser
+
+<input type="checkbox">
+
+</div>
+
+<div class="check">
+
+7-8 Stunden Schlaf
+
+<input type="checkbox">
+
+</div>
+
+<div class="check">
+
+Kein Junkfood
+
+<input type="checkbox">
+
+</div>
+
+<button class="button">
+
+💾 Speichern
+
+</button>
+
+</div>
+
+</div>
+
+<script src="app.js"></script>
+
 </body>
+
 </html>
