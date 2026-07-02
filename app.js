@@ -31,6 +31,10 @@ rest=0;
 
 ziel.innerHTML=rest.toFixed(1)+" kg";
 
+  const prozent=((95-(gewicht.value||95))/13)*100;
+
+document.getElementById("bar").style.width=Math.max(0,Math.min(100,prozent))+"%";
+
 let score=0;
 
 checkboxes.forEach(cb=>{
